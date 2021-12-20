@@ -1,0 +1,18 @@
+id,name,code,active,acra,address,contact_person,contact_number,commission_rate,gst_registered
+2,Auto Zoom Enterprise Pte Ltd,A0062,true,200805515H,"24 Leng Kee Road, #04-01A, Leng Kee AutoPoint Singapore 159096",Angie,634210000,10,true
+7,Eagle Land (Credit) Pte Ltd,E0018,true,201209140D,"24 Leng Kee Road, Leng Kee AutoPoint #07-03, Singapore 159096",William Ng,97696000,20,true
+8,Euro Performance Asia Pte Ltd,E0019,true,201700023G,"1 Magazine Road, #01-08, Singapore 059567",Sindy,90602839,20,false
+13,HTS Motor Cars Pte Ltd,H0052,true,41463200A,"24 Leng Kee Road, Leng Kee AutoPoint, #05-01A/B/C, Singapore 159096",Ken Tee,86110661,0,false
+26,Vincar Pte Ltd,A0047,true,200312900K,"24 Leng Kee Road, Leng Kee AutoPoint #01-02, Singapore 159096",Cindy Tan,65909998,20,true
+35,DM Pre-Owned Pte Ltd,D2001,true,201717555M,"5 KUNG CHONG ROAD, SRS BUILDING, SINGAPORE 159142",97611818/87781301,SHARINE/JOLTAN,0,false
+37,TCH Motors,T0001,true,53369619D,"419 FAJAR ROAD, #04-461, SINGAPORE 670419",Ken Tee,86110661,,false
+40,Car Network SG Pte Ltd,C001,true,201537404M,"1, SCOTTS ROAD, #24-05, SHAW CENTRE, SINGAPORE 228208",Derrick Ng,81001222,,false
+41,1 Accurate Pte Ltd,AC001,true,201800217K,"53, UBI AVENUE 1, #01-33, PAYA UBI INDUSTRIAL PARK, SINGAPORE 408934",Jeremy,98888885,,false
+42,Hin Lung Auto Pte Ltd,HL001,true,198305451D,3 Hoy Fatt Road Singapore 159504,Adrian,81818777,15,false
+43,AMS Motors Pte Ltd,AM001,true,201732477Z,"1, BUKIT BATOK CRESCENT, #02-56, WCEGA PLAZA, SINGAPORE 658064",Louis,97408888,,false
+45,AllCars Pte Ltd,AC024,true,201940287R,24 Leng Kee Road #07-03 Leng Kee Autopoint Singapore 159096,YK Lim,98536281,,false
+46,Optimus Motors Pte Ltd,OM001,true,201320936E,11 Mandai Estate ELDIX #03-02 Singapore 729908,Lim Eng Kwee,82010303,,false
+47,Apex Trading Pte Ltd,AT001,true,201203764C,"61 UBI AVENUE 2, #02-20, AUTOMOBILE MEGAMART, SINGAPORE 408898",8222 1288,Thomas Lim,15,false
+82,Direct Owner,DO001,true,,,Zihow,82687219,,false
+83,Vans N Trucks Pte Ltd,VNT001,true,202017185M,"11, WOODLANDS CLOSE, #09-43F, WOODLANDS 11, SINGAPORE 737853",Susan Ng,81218653,15,false
+80,Maximus Auto Services Pte Ltd,MA001,false,200507694R,"7 SOON LEE STREET, #05-05, ISPACE, SINGAPORE 627608",Daphne Tan,96382477,20,false

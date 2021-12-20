@@ -1,0 +1,31 @@
+deploy_dev:
+  type: deploy
+  environment:
+    name: development
+  script:
+    - "cd /var/www/html/carfren && git stash && git pull origin development-latest-2"
+    - "cd /var/www/html/carfren && composer install"
+    - "cd /var/www/html/carfren && npm i && npm run dev"
+    - "cd /var/www/html/carfren && php artisan migrate"
+    - "cd /var/www/html/carfren && php artisan config:clear"
+    - "cd /var/www/html/carfren && php artisan config:cache"
+  only:
+    - development-latest-2
+  tags:
+    - development
+
+deploy_prod:
+  type: deploy
+  environment:
+    name: master
+  script:
+    - "cd /var/www/html/carfren && git stash && git pull origin master"
+    - "cd /var/www/html/carfren && composer install"
+    - "cd /var/www/html/carfren && npm i && npm run prod"
+    - "cd /var/www/html/carfren && php artisan migrate --force"
+    - "cd /var/www/html/carfren && php artisan config:clear"
+    - "cd /var/www/html/carfren && php artisan config:cache"
+  only:
+    - master
+  tags:
+    - production

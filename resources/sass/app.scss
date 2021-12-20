@@ -1,0 +1,282 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+@import 'coreui';
+
+.c-legacy-theme .c-sidebar .c-sidebar-brand {
+    background: rgba(0, 0, 21, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+    justify-content: normal;
+}
+
+.c-legacy-theme .c-sidebar img {
+    margin-left: 16px;
+    margin-right: 16px !important;
+}
+
+.c-subheader {
+    align-items: center;
+}
+
+.c-body {
+    background: white;
+}
+
+.c-main {
+    padding-top: 1rem;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: row;
+}
+.laravel-vue-datatable-tbody tr {
+    cursor: pointer;
+}
+.user-info {
+    margin-left: 16px;
+}
+.user-circle {
+    position: relative;
+}
+.initials {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    color: white;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #595959;
+}
+
+.badge-text {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-transform: capitalize;
+}
+
+.btn-right {
+    position: absolute;
+    right: 12px;
+}
+
+.header-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-main > .container-fluid {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.file-upload {
+    border: 1px solid #C9CED2;
+    margin-bottom: 1rem;
+}
+
+.plus input {
+    display: none;
+}
+
+.plus .input-group {
+    height: 35px;
+}
+
+.btn-upload {
+    cursor: pointer;
+}
+
+.c-legacy-theme .c-sidebar .c-sidebar-nav-link.c-active, .c-legacy-theme .c-sidebar .c-active.c-sidebar-nav-dropdown-toggle {
+    background: #20a8d8;
+}
+
+.file-upload .table {
+    margin-bottom: 0;
+}
+
+.details .row>div {
+    margin-bottom: 2rem;
+}
+
+.details .row:last-child {
+    margin-bottom: -2rem;
+}
+
+.details span {
+    color:#007BFF;
+}
+
+.c-icon {
+    color: black;
+}
+.input-group-prepend {
+    height: 35px;
+}
+  
+.claim-header>div, .claim-header {
+    margin-bottom: 0.25rem !important;
+}
+
+.item {
+    padding-top: 0.3rem;
+}
+
+.item-col, .last-item {
+    margin-bottom: 0rem !important;
+}
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.item-container {
+    display: flex;
+}
+
+.item-container .item-id {
+    margin-top: 6px; 
+    margin-right: 12px;
+}
+
+.item-container .item-input{
+    flex:1;
+}
+
+.capitalize input, .capitalize {
+    text-transform: capitalize;
+}
+
+.tab-content {
+    padding-top: 18px;
+}
+.nav-tabs {
+    margin-bottom: 18px;
+}
+
+.dashboard-badge {
+    border-radius: 11px;
+}
+
+.dashboard-tab .nav-link {
+    padding: 0;
+}
+
+.dashboard-tab .nav-link div {
+    padding: 0.5rem 1rem;
+}
+
+th span {
+    white-space: nowrap;
+}
+
+.file-upload thead tr:nth-child(3) {
+    width: 40%;
+}
+
+.form-check-label {
+    opacity: 0.5;
+}
+
+.price {
+    text-align : center;
+    font-weight: 500;
+    font-size: 1.53125rem;
+}
+
+.mileage-coverage {
+    text-align : center;
+}
+
+.claim {
+    text-align : center;
+}
+
+.c-legacy-theme .border-primary {
+    border: 2px solid !important;
+    border-color: #20a8d8 !important;
+}
+
+.warranty-selection {
+    cursor: pointer;
+}
+
+.single-file input {
+    overflow: hidden;
+}
+
+.spinner-grow {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 4px;
+}
+
+.custom-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-seperator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;    
+}
+
+.line-seperator hr {
+    flex-grow: 1;
+    border-top: 1px solid #20a8d8;
+}
+
+.line-seperator div {
+    color: #20a8d8;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.questions {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.questions .c-switch {
+    margin-top: 14px;
+    margin-left: 24px;
+}
+
+@media (min-width: 768px) {
+    .export-btn {
+        max-height: 35px;
+        margin-top: 1.8rem;
+    }
+
+    .export-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .export-container div {
+        margin-right: 16px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .export-btn {
+        margin-bottom: 1rem;
+    }
+}
